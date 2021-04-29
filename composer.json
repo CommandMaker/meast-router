@@ -1,6 +1,7 @@
 {
     "name": "command_maker/meast-router",
     "description": "A simple PHP router with PHP 8 Attributes for Meast website",
+    "version": "1.0",
     "authors": [
         {
             "name": "CommandMaker",
