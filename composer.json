@@ -1,0 +1,25 @@
+{
+    "name": "command_maker/php-router",
+    "description": "",
+    "authors": [
+        {
+            "name": "CommandMaker",
+            "email": "command.maker83@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/http-foundation": "5.x-dev",
+        "haydenpierce/class-finder": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Meast\\Router\\": "src",
+            "App\\": "app"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "5.x-dev",
+        "phpunit/phpunit": "10.0.x-dev"
+    }
+}
