@@ -1,6 +1,6 @@
 {
-    "name": "command_maker/php-router",
-    "description": "",
+    "name": "command_maker/meast-router",
+    "description": "A simple PHP ",
     "authors": [
         {
             "name": "CommandMaker",
@@ -14,8 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Meast\\Router\\": "src",
-            "App\\": "app"
+            "Meast\\Router\\": "src"
         }
     },
     "require-dev": {
